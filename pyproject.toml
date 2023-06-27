@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "metroparser"
+version = "0.1.0"
+description = ""
+authors = ["komediantto <komediantto@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+lxml = "^4.9.2"
+requests = "^2.31.0"
+pandas = "^2.0.2"
+openpyxl = "^3.1.2"
+fake-useragent = "^1.1.3"
+selenium = "^4.10.0"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
